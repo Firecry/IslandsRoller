@@ -1,0 +1,35 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #51424F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    color: #00fff2;
+    background-color: #660063;
+    padding: 10px 20px;
+    border: 1px solid #00fff2;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 2px;
+    transition: background-color .1s ease-in-out;
+}
+.btn:hover{
+    background-color: #4d004a;
+}
+
+.random{
+    margin-top: 8rem;
+    color: #00fff2;
+    font-size: 2rem;
+    background-color: #660063;
+    padding: 10px 20px;
+    border: 1px solid #00fff2;
+    border-radius: 5px;
+}
